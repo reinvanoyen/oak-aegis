@@ -19,14 +19,19 @@ $app = new \Oak\Application();
 
 // Register service provider
 $app->register([
+
+  // Oak
   \Oak\Config\ConfigServiceProvider::class,
   \Oak\Console\ConsoleServiceProvider::class,
   \Oak\Filesystem\FilesystemServiceProvider::class,
+  
+  // Packages
   \ReinVanOyen\OakAegis\AegisServiceProvider::class,
 ]);
 
 $app->bootstrap();
 
+// Start using Aegis
 $template = $app->get(Template::class);
 $template->set('title', 'Aegis');
 echo $template->render('index');
