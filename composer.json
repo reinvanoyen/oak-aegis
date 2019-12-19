@@ -1,0 +1,19 @@
+{
+  "name": "reinvanoyen/oak-aegis",
+  "description": "Aegis bindings for Oak",
+  "authors": [
+    {
+      "name": "Rein Van Oyen",
+      "email": "reinvanoyen@gmail.com"
+    }
+  ],
+  "require": {
+    "reinvanoyen/oak": "^1.0",
+    "reinvanoyen/aegis": "0.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ReinVanOyen\\OakAegis\\": "src/"
+    }
+  }
+}
