@@ -9,7 +9,7 @@
   ],
   "require": {
     "reinvanoyen/oak": "^1.0",
-    "reinvanoyen/aegis": "0.0.2"
+    "reinvanoyen/aegis": "0.0.3"
   },
   "autoload": {
     "psr-4": {
