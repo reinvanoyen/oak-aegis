@@ -14,6 +14,7 @@ use Aegis\Engine\Engine;
 use Aegis\Lexer\Lexer;
 use Aegis\Node\AssignmentNode;
 use Aegis\Node\BlockNode;
+use Aegis\Node\ComponentNode;
 use Aegis\Node\ExtendNode;
 use Aegis\Node\ForNode;
 use Aegis\Node\IfNode;
@@ -70,6 +71,7 @@ class AegisServiceProvider extends ServiceProvider
                         AssignmentNode::class,
                         ForNode::class,
                         ExtendNode::class,
+                        ComponentNode::class,
                         BlockNode::class,
                         PropNode::class,
                         IncludeNode::class,
