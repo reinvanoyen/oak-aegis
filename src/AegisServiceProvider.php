@@ -19,6 +19,7 @@ use Aegis\Node\ForNode;
 use Aegis\Node\IfNode;
 use Aegis\Node\IncludeNode;
 use Aegis\Node\PhpNode;
+use Aegis\Node\PropNode;
 use Aegis\Node\RawNode;
 use Aegis\NodeCollection\NodeCollection;
 use Aegis\Parser\Parser;
@@ -70,6 +71,7 @@ class AegisServiceProvider extends ServiceProvider
                         ForNode::class,
                         ExtendNode::class,
                         BlockNode::class,
+                        PropNode::class,
                         IncludeNode::class,
                         RawNode::class,
                         PhpNode::class,
